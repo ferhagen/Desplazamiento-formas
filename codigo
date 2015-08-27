@@ -1,0 +1,15 @@
+//variables
+int FER = 120;
+int ALBA = 0;
+float P = 0.5;
+
+void setup(){
+  size(500, 500);
+}
+
+void draw(){
+//actualización de fer
+FER = FER+1;
+//poligono
+quad(FER,FER*2,FER*3,FER*2,FER*3,FER,FER-10,FER+50);
+}
